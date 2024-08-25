@@ -1,0 +1,58 @@
+.homepage-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.fields-container {
+    margin-bottom: 20px;
+}
+
+.field-item {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field-item input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.remove-field-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.remove-field-button:hover {
+    background-color: #e60000;
+}
+
+.add-field-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.add-field-button:hover {
+    background-color: #45a049;
+}
+
+.submit-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #005f6b;
+}
