@@ -29,7 +29,7 @@ const HomePage = () => {
         // Convert fields to an array
         const dataArray = fields.map(field => field.value);
         try {
-            const response = await fetch('http://localhost:5000/bfhl', {
+            const response = await fetch('https://chatmate-backend-8usd.onrender.com/bfhl', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
